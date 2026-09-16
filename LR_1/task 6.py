@@ -4,7 +4,7 @@ m = int(input("Введите номер месяца: "))
 if m not in months:
     print("Ну обшииибся")
 else:
-    for i in range(len(days)+1): 
+    for i in range(len(days)): 
         if m == i+1:
-            print(days[i])
+            print(f"Количество дней = {days[i]}")
     
